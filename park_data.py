@@ -58,7 +58,7 @@ print(metrics.classification_report(Y_test, y_pred))
 print(metrics.confusion_matrix(Y_test, y_pred))
 
 
-#K-Nearest Neighbor (BEST ONE 98%%)
+#K-Nearest Neighbor (SUPPOSEDLY BEST)
 from sklearn import datasets
 from sklearn import metrics
 from sklearn.neighbors import KNeighborsClassifier
